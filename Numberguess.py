@@ -3,7 +3,7 @@ low=0
 high=1000
 guesses=0
 number=random.randint(low,high)
-Running=True
+Running=False
 while Running:
     guess=int(input(f"enter a no. between {low}-{high}:"))
     guesses+=1
